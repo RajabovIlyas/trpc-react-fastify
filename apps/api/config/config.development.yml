@@ -1,0 +1,10 @@
+environment: 'development'
+server:
+  port: 3000
+  prefix: '/trpc'
+  jwt:
+    secretKey: 'sadfl;aksdfjasdfl'
+    jwtExpiresIn: '1d'
+database:
+  type: 'sqlite'
+  database: 'database.sqlite'
