@@ -1,0 +1,24 @@
+{
+  "name": "@lib/trpc-client",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "api": "1.0.0",
+    "@trpc/client": "^11.0.0-rc.718",
+    "@trpc/react-query": "^11.0.0-rc.718"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "typescript": "^5.7.3"
+  }
+}
